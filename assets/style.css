@@ -6,6 +6,32 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+.about-me__introduction,
+.quote,
+.quote__text,
+.quote__author {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.gstatic.com/s/inter/v7/Gl03mi5X2LJ2zokRdn3g.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('https://fonts.gstatic.com/s/spectral/v7/rnCs-xNNww_2s0amA4uHIks.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -102,11 +128,12 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #6D6A2A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
